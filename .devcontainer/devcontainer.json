@@ -4,6 +4,11 @@
 	"name": "C++",
 	"build": {
 		"dockerfile": "Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/ninja-asdf:2": {
+			"version": "latest"
+		}
 	}
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
